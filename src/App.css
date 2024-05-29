@@ -1,0 +1,30 @@
+.game {
+  width: 700px;
+  height: 200px;
+  border-bottom: 1.5px solid #000;
+  margin: auto;
+  position: relative; /* Относительное позиционирование для .game */
+}
+
+#dino {
+  width: 60px;
+  height: 50px;
+  background-image: url('img/dino.png');  /* Замените на корректный путь */
+  background-size: 60px 50px;
+  position: absolute; /* Абсолютное позиционирование для #dino */
+  bottom: 0; /* Прижимаем динозавра к низу */
+  transition: top 0.1s; /* Добавляем плавность анимации */
+}
+
+#cactus {
+  width: 40px;
+  height: 40px;
+  background-image: url('img/cactus2.png');  /* Замените на корректный путь */
+  background-size: 40px 40px;
+  position: absolute;  /* Абсолютное позиционирование для #cactus */
+  bottom: 0; /* Прижимаем кактус к низу */
+}
+
+.jump {
+  top: 80px; /* Высота прыжка */
+}
